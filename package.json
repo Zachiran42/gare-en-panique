@@ -1,0 +1,9 @@
+{
+  "name": "gare-en-panique",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "check": "node --check docs/game.js && node --check docs/engine.js"
+  }
+}
