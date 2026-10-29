@@ -1,24 +1,26 @@
 # Gare en panique
 
-Les trains arrivent et les quais attendent. Fais pivoter les aiguillages, anticipe les départs et garde le réseau en mouvement.
+Des trains plus rapides arrivent. Sélectionne directement leur quai, fais partir les rames au bon moment et évite les rattrapages : un train engagé conserve sa voie.
 
 **Android 7.0+ avec Android System WebView à jour · 100 % hors ligne dans l’APK · Sans compte · Sans publicité · MIT**
 
 - [Jouer sur la page du jeu](https://zachiran42.github.io/gare-en-panique/)
-- [Télécharger l’APK signé de test](docs/downloads/gare-en-panique-1.0.0.apk)
+- [Télécharger l’APK signé de test](docs/downloads/gare-en-panique-1.1.0.apk)
 - [Signaler un problème](https://github.com/Zachiran42/gare-en-panique/issues)
 
 ## Jouer
 
-1. Touche les aiguillages pour changer leur direction.
-2. Guide chaque train vers le quai de sa couleur.
-3. Anticipe les départs : un mauvais trajet peut tout arrêter.
+1. Touche directement le quai ou le bouton 1, 2 ou 3 pour sélectionner la voie.
+2. Choisis avant le cercle d’engagement : ensuite, la route du train est verrouillée.
+3. Espace les départs, surtout lorsqu’un express suit une rame plus lente.
 
-Sur ordinateur : flèches, WASD ou ZQSD. Échap met le jeu en pause. Une partie en cours et la progression sont conservées localement. Les données de la démo web et celles de l’APK sont indépendantes.
+TÉLÉPHONE · Touche le quai ou 1 / 2 / 3 · CLAVIER · 1 / 2 / 3 · ESPACE départ · PAUSE · Échap
+
+La progression reste stockée localement. Les règles de la version1.1 changent : les anciennes parties en cours redémarrent, les déblocages et améliorations permanentes sont conservés.
 
 ## Installer sur Android
 
-Télécharger l’APK depuis ce dépôt ou sa page. Ouvrir le fichier sur Android et autoriser l’installation pour l’application utilisée pour le téléchargement si Android le demande. L’APK 1.0.0 est une version de test signée avec une clé de développement. Une signature de production stable est recommandée avant une distribution durable.
+Télécharger l’APK depuis ce dépôt ou sa page. Ouvrir le fichier sur Android et autoriser l’installation pour l’application utilisée pour le téléchargement si Android le demande. L’APK 1.1.0 est une version de test signée avec une clé de développement. Une signature de production stable est recommandée avant une distribution durable.
 
 ## Développer et compiler
 
@@ -48,6 +50,10 @@ Aucune permission INTERNET dans le manifeste Android. Pas de télémétrie ni d�
 
 Le code, les graphismes procéduraux et les textes originaux sont sous [licence MIT](LICENSE). Le wrapper Gradle et les outils de compilation tiers conservent leurs propres licences.
 
-## Version 1.0.0
+## Version 1.1.0
 
-Première version jouable. Le comportement tactile et les performances peuvent varier selon le WebView Android de l’appareil.
+Version enrichie avec commandes et difficulté revues. Le comportement tactile et les performances peuvent varier selon le WebView Android de l’appareil.
+
+## Nouveautés 1.1.0
+
+Vitesse augmentée dès le premier service et progression par niveau. Sélection directe de chaque voie via le quai, un bouton ou une touche 1/2/3. Virages arrondis, retour visuel immédiat, routes engagées verrouillées et espacements calculés selon les vitesses des rames.
